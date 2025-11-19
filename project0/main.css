@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(1000003793.jpg);
+display: flex;
+flex-direction: column;
+
+}
+
+.header1 {
+   background-color: #6a0dad; /* بنفش */
+  height: 50px;
+  width: 90%;
+ 
+  margin: 0 auto;
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding: 10px;
+border-radius: 5px;
+
+position: relative;
+top: 50px;
+
+}
+
+.nav-main {
+  display: flex;
+  gap: 60px; /* فاصله بین لینک‌ها */
+}
+
+.nav-main a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.nav-main a:hover {
+  color: #0400ff; /* تغییر رنگ هنگام هاور */
+-webkit-text-stroke: slategrey 1px;
+
+}
+
+/* ریسپانسیو برای موبایل */
+@media (max-width: 600px) {
+  .nav-main {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header1 {
+    height: auto;
+    padding: 10px 0;
+  }
+}
+.generalImg{ 
+    
+ margin: 0 auto;
+  display: flex;
+justify-items: center;
+border-radius: 4px;
+ }
+
+
+.wellcometext0{
+background-color: black;
+color: rgba(181, 177, 164, 0.879);
+border: right 3px solid #f0f0f9 ;
+display: flex;
+margin: 10px;
+overflow: hidden;
+ transition: color 0.3s;
+animation: typing 15s steps(35) infinite, blink 0.7s step-end infinite;
+width: 35ch;
+
+height: 150px;
+}
+
+
+.wellcometext:hover{
+color: gold;
+
+
+}
+
+@keyframes typing {
+  0%, 20% { width: 0; }
+  80%, 100% { width: 35ch; }
+}
+
+/* چشمک کرسر */
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+
+.MsinBackOfObjects{
+
+margin: 0px auto;
+display: flex;
+justify-items: center;
+border-radius: 10px;
+}
+
+.wellcometext1{
+margin: 0 auto;
+display: flex;
+justify-content: center;
+
+
+}
+
+.AllbumStyl0{
+background-color: black;
+width: auto;
+height: auto;
+  padding: 8px;
+  border-radius: 4px;
+margin: 15px;
+}
+
+
+img:hover{
+border: #6a0dad solid 2px;
+}
+   
+
+.container{
+background-color: #6f6f6f;
+width: 78%;
+height: 200px;
+border-radius: 4px;
+margin: 10px auto;
+}
+.form-control{
+margin-top: 2%;
+border: aquamarine 1.3px solid;
+}
+
+.form-control:hover{
+  border: #6a0dad;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
