@@ -5,7 +5,9 @@ body {
   background-image: url(1000003793.jpg);
 display: flex;
 flex-direction: column;
-
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
 }
 
 .header1 {
@@ -148,6 +150,7 @@ border: aquamarine 1.3px solid;
 
 
 }
+
 
 
 
