@@ -145,13 +145,27 @@ border: aquamarine 1.3px solid;
 
 .form-control:hover{
   border: #6a0dad;
-
-
-
-
 }
 
 
+
+
+
+.AlarmDiv{
+padding: 0px;
+height: 15px;
+width: 40%;
+margin: 50px auto;
+}
+
+.AlarmP{
+background-color: coral; 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 0px;
+
+}
 
 
 
